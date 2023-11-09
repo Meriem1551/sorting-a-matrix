@@ -5,5 +5,5 @@
 #include <stdbool.h>
 #include "../Search-algorithms/main.h"
 int **create_matrix(int, int);
-
+bool check_line(int, int, int **);
 #endif
