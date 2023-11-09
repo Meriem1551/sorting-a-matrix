@@ -6,4 +6,6 @@
 #include "../Search-algorithms/main.h"
 int **create_matrix(int, int);
 bool check_line(int, int, int **);
+void sort_matrix(int, int, int **);
+void ins_sort(int, int, int **);
 #endif
