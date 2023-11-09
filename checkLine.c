@@ -8,10 +8,10 @@
  */
 bool check_line(int n_line, int c, int **m)
 {
-    for (int i = 0; i < c - 1; i++)
+    for (int i = 0; i < c; i++)
     {
         if (m[n_line][i] >= m[n_line][i + 1])
             return true;
-        return false;
     }
+    return false;
 }

@@ -18,5 +18,4 @@ int main(void)
     matrix = create_matrix(row, col);
     // line_num = get_input("Which line want you to check? ");
     sort_matrix(row, col, matrix);
-    // print_matrix(row, col, matrix);
 }
